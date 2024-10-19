@@ -1,0 +1,21 @@
+{
+  "name": "tixsource",
+  "version": "1.0.0",
+  "description": "tixsource is a events/concert ticket app",
+  "main": "app.js",
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "TixSource"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "Frostishyper",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
