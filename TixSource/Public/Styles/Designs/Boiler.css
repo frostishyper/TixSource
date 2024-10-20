@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Maven Pro", sans-serif;
+}
+
+/* 
+    Project CSS Styling Heirarchy
+
+    - Size Defenitions (Width, Height, Padding, Margin, etc)
+    - Display (Flex, Grid, etc)
+    - Backgrounds (Background-Color, Background-Image, etc)
+    - Borders and Shadows (Border, Border Radius, Box-Shadow, etc)
+    - Text Styling (Font-Family, Font-Size, Font-Weight, etc)
+    - Primary Desigs (Colors, Hover Effects, etc)
+    - Secondary Designs (Animations, Transitions, etc)
+    - Everything Else (Others Not Mentioned Yet)
+*/

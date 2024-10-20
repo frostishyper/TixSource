@@ -6,15 +6,53 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>Document</title>
+        <title>Index</title>
         <link rel="stylesheet" href="./Styles/Designs/Index.css">
         <link rel="stylesheet" href="./Styles/Fontawesome_6.6.0/css/all.css">
-        <script src="" async> </script>
+        <link rel="icon" href="./Media/Branding/TS_icon.ico">
+        <script src="./Scripts/Index.js" async> </script>
     </head>
 
 
 
     <body>
+
+        <div class="Display">
+            <div class="Slider">
+                <div class="Slides">
+                    <img src="./Media/Slider/Slider1.jpg" alt="Image 1" class="Slide">
+                    <img src="./Media/Slider/Slider2.jpg" alt="Image 2" class="Slide">
+                    <img src="./Media/Slider/Slider3.jpg" alt="Image 3" class="Slide">
+                </div>
+                <div class="Filter"></div>
+                <div class="Indicators">
+                    <span class="Indicator" data-index="0"></span>
+                    <span class="Indicator" data-index="1"></span>
+                    <span class="Indicator" data-index="2"></span>
+                </div>
+                <p class="SlideText">
+                    Latest Concert And Event Tickets Available For Sale Now At TixSource
+                </p>
+            </div>
+        </div>
+
+       
+
+        <div class="Inputs">
+            <div class="Inputs-Container">
+                <img src="./Media/Branding/TS_logo.png" alt="logo" width="90px" height="90px">
+                <h1>TixSource</h1>
+                <input placeholder="Username" type="text" class="Input-Field" id="UserName">
+                <input placeholder="Password" type="password" class="Input-Field" id="PassWord">
+                <button class="Input-Btn" id="Submit-Login">Login</button>
+                <p class="Input-link">
+                    Dont Have An Account? <span class="Link-Highlight" id="Register">Sign Up</span>
+                </p>
+                <button class="External-Link"> <i class="fa-brands fa-google"></i> Continue With Google</button>
+                <button class="External-Link"> <i class="fa-brands fa-apple"></i> Continue With Apple</button>
+                <button class="External-Link"> <i class="fa-brands fa-square-x-twitter"></i> Continue With X</button>
+            </div>
+        </div>
         
     </body>
 
